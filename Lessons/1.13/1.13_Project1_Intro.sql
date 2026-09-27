@@ -4,6 +4,6 @@ FROM
     job_postings_fact;
 
 SELECT DISTINCT
-    job_country
+    job_country, job_location
 FROM
     job_postings_fact;
